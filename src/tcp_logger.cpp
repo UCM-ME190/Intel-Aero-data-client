@@ -9,7 +9,7 @@ TcpLogger::TcpLogger(int width, int height, int fps)
     height(height),
     fps(fps),
     numFrames(0),
-    compressed(true)
+    compressed(false)
 {
 
   depth_compress_buf_size = width * height * sizeof(int16_t) * 4;
