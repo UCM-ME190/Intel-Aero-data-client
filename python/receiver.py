@@ -5,7 +5,7 @@ import numpy as np
 HOST = '10.31.48.204'    # Change this to the IP address of your Aero
 
 
-def process_average_depth(adepth):
+def process_average_depth(depth):
      print "depth at [240,320]: ", depth[240,320] 
      # Fill in your code here
 
