@@ -37,5 +37,5 @@ while True:
     s.close()
     print "Received one frame"
     rgb, depth, time_stamp = get_rgb_depth_time(byte_data)
-    process_average_depth(depth)
+    process_depth(depth)
 
