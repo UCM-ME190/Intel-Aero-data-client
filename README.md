@@ -35,7 +35,7 @@ cd ~/Intel-Aero-data-client/build
  Mac https://repo.continuum.io/archive/Anaconda2-4.4.0-MacOSX-x86_64.pkg  
 
 
-Then open another terminal or putty
+Then open another terminal or command prompt (not putty)
 
 ```
 git clone https://github.com/UCM-ME190/Intel-Aero-data-client.git
