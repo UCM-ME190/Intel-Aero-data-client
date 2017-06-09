@@ -56,7 +56,7 @@ def process_depth(depth):
 
 After line 9 is where your code should go. 
 
-### First convert depth from millimeters to meters.
+### Convert depth from millimeters to meters.
 parameter depth is a 2D numpy array of shape (480,640).
 
 ### Calcuate average depth
