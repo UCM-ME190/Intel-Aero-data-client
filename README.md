@@ -15,7 +15,7 @@ If you are using Ubuntu or Mac, open a terminal
 ssh root@169.168.7.2
 ```
 
-## run docker container that has a this program pre-built
+## run docker container that has this program pre-built
 
 ```
 docker run -it --privileged -p 5698:5698 ros_rs_dc
