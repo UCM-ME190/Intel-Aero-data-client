@@ -63,7 +63,7 @@ parameter depth is a 2D numpy array of shape (480,640).
 
 Because each pixel in depth map has its depth value. To make it simple, we use average of depth as a distance of Aero to an obstacle. Write code to calculate depth mean in meters 
 
-hint:
+hint:  
 https://docs.scipy.org/doc/numpy/reference/generated/numpy.sum.html  
 https://docs.scipy.org/doc/numpy/reference/generated/numpy.count_nonzero.html
 
