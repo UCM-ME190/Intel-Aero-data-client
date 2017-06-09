@@ -59,9 +59,13 @@ After line 9 is where your code should go.
 ### Convert depth from millimeters to meters.
 parameter depth is a 2D numpy array of shape (480,640).
 
-### Calcuate average depth
+### Calcuate average depth of non-zero pixels
 
 Because each pixel in depth map has its depth value. To make it simple, we use average of depth as a distance of Aero to an obstacle. Write code to calculate depth mean in meters 
+
+hint:
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.sum.html  
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.count_nonzero.html
 
 ### Print different message based on average depth value
 
