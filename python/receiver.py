@@ -2,7 +2,7 @@ import socket
 from struct import *
 import numpy as np
 
-HOST = '10.31.48.204'    # Change this to the IP address of your Aero
+HOST = '192.168.7.2'    # Change this to the IP address of your Aero
 
 
 def process_depth(depth):
