@@ -27,6 +27,7 @@ docker run -it --privileged -p 5698:5698 ros_rs_dc
 cd ~/Intel-Aero-data-client/build
 ./DataClinet
 ```
+![Alt text](/screenshots/aero_dc.png?raw=true "Screenshot of successful run")
 
 # Copy and run the program to receive RGB-D data on your computer
 (Install python on your computer if you do not know what it is by following this link)  
@@ -42,6 +43,8 @@ git clone https://github.com/UCM-ME190/Intel-Aero-data-client.git
 cd Intel-Aero-data-client/python
 python receiver.py
 ```
+![Alt text](/screenshots/python_rec.png?raw=true "Screenshot of successful run")
+
 After getting this output, you have all the tools. Now let us develop a simple collision detection program
 
 ## Make your own collision detection program
