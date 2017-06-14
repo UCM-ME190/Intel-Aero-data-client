@@ -8,6 +8,7 @@ Connect Aero to your computer using USB cable
 ## ssh into Aero
 
 If you are using Windows, open a putty and connect to 192.168.7.2
+Type "root" for username.
 
 If you are using Ubuntu or Mac, open a terminal
 
