@@ -8,6 +8,7 @@ Connect Aero to your computer using USB cable
 ## ssh into Aero
 
 If you are using Windows, open a putty and connect to 192.168.7.2
+
 Type "root" for username.
 
 If you are using Ubuntu or Mac, open a terminal
@@ -32,21 +33,27 @@ cd ~/Intel-Aero-data-client/build
 
 # Copy and run the program to receive RGB-D data on your computer
 (Install Python 2.7 on your computer if your computer doesn't have Python)  
+ 
  Windows: 
+ 
  https://www.continuum.io/downloads#windows
+
  Then open another command prompt (not putty)
  ```
  "C:\Python27\Scripts\pip.exe" install numpy
  ```
  Mac:
+ 
  https://www.continuum.io/downloads#macos
+ 
  Then open another terminal
  ```
  pip install numpy
  ```
 
 Install Git if your computer doesn't have one:
- https://git-scm.com/downloads 
+
+https://git-scm.com/downloads 
 
 
 Then open another terminal or command prompt (not putty)
