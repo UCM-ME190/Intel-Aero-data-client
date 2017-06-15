@@ -32,18 +32,28 @@ cd ~/Intel-Aero-data-client/build
 
 # Copy and run the program to receive RGB-D data on your computer
 (Install Python 2.7 on your computer if your computer doesn't have Python)  
- Windows:
+ Windows: 
  https://www.continuum.io/downloads#windows
+ Then open another command prompt (not putty)
+ ```
+ "C:\Python27\Scripts\pip.exe" install numpy
+ ```
  Mac:
  https://www.continuum.io/downloads#macos
+ Then open another terminal
+ ```
+ pip install numpy
+ ```
+
+Install Git if your computer doesn't have one:
+ https://git-scm.com/downloads 
 
 
 Then open another terminal or command prompt (not putty)
-
 ```
 git clone https://github.com/UCM-ME190/Intel-Aero-data-client.git
 cd Intel-Aero-data-client/python
-python receiver.py
+"C:/Python27/python.exe" receiver.py
 ```
 ![Alt text](/screenshots/python_rec.png?raw=true "Screenshot of successful run")
 
