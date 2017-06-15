@@ -36,6 +36,7 @@ cd ~/Intel-Aero-data-client/build
  (Install Python 2.7 on your computer if your computer doesn't have Python)  
 
 ============================================== 
+
  Windows: 
  
  https://www.continuum.io/downloads#windows
