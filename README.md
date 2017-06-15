@@ -31,7 +31,7 @@ cd ~/Intel-Aero-data-client/build
 ![Alt text](/screenshots/aero_dc.png?raw=true "Screenshot of successful run")
 
 # Copy and run the program to receive RGB-D data on your computer
-(Install python on your computer if you do not know what it is by following this link)  
+(Install python 2.7 on your computer if you do not know what it is by following this link)  
  Windowns x64 https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh  
  Windowns x32 https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86.sh  
  Mac https://repo.continuum.io/archive/Anaconda2-4.4.0-MacOSX-x86_64.pkg  
