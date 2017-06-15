@@ -19,6 +19,7 @@ ssh root@169.168.7.2
 
 ## run docker container that has this program pre-built
 
+
 ```
 docker run -it --privileged -p 5698:5698 ros_rs_dc
 ```
@@ -52,6 +53,7 @@ cd ~/Intel-Aero-data-client/build
  pip install numpy
  ```
 ===================================================
+
 Install Git if your computer doesn't have one:
 
 https://git-scm.com/downloads 
